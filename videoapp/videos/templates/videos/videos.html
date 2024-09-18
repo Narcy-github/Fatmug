@@ -1,0 +1,11 @@
+<div class="list-videos"></div>
+
+    <h2>Uploaded Videos</h2>
+    <ul>
+        {% for video in videos %}
+        <li><a href="{% url 'video-details' video.id %}">{{ video.title }}</a></li>
+        
+        {% endfor %}
+    </ul>
+
+</div>

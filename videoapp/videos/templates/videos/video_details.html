@@ -1,0 +1,8 @@
+<h2>{{ video.title }}</h2>
+
+<video width="320" height="240" controls>
+    <source src="{{video.video_file.url}}" type="video/mp4">
+    
+    <track kind="subtitles" src="{{video.video_file.url}}.vtt" srclang="en" label="English">
+</video>
+
