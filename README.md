@@ -1,6 +1,6 @@
 # Fatmug Assignment
 
-Note: My sytem is not supporting docker, I know how to dockerize but, i think system is not comptible with docker version, I tried in many ways.
+Note: My sytem is not supporting docker, I know how to dockerize but, i think system is not compatible with docker version, I tried in many ways.
 
 This is a simple Python project that demonstrates Video Upload and Processing, Search Functionality, List View for Uploaded Videos
 
